@@ -6,8 +6,9 @@ header {
   background-color: #2f4f4f;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
 
 nav {
@@ -17,12 +18,14 @@ nav {
   justify-content: center;
 }
 
-a {
+nav a {
   display: flex;
   justify-content: center;
+}
+
+nav img {
   width: 200px;
   height: 70px;
-  object-fit: contain;
 }
 
 nav ul {
@@ -43,7 +46,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   margin: auto;
   flex-direction: column;
   justify-content: center;
