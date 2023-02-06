@@ -3,3 +3,6 @@ Lighthouse score for Lab 8b
 
 Lighthouse score for Lab 9
 ![alt text](img/lab_09.png)
+
+Lighthouse score for Lab 10
+![alt text](img/lab_10b.png)
