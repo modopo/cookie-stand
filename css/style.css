@@ -60,7 +60,7 @@ main img {
   margin-bottom: 30px;
 }
 
-#family {
+#hero {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -68,15 +68,37 @@ main img {
   align-items: center;  
 }
 
-#family img {
+#hero img {
   width: 80%;
 }
 
-#family h1 {
+#hero h1 {
   font-family: 'Saira', sans-serif;
   font-size: 5rem;
   color: #2f4f4f;
   margin: 30px auto 30px;
+}
+
+#blurb {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#blurb p {
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #407e79;
+  justify-content: center;
+  align-items: center;
+}
+
+#blurb img {
+  width: 50%;
 }
 
 #locations {
@@ -90,7 +112,7 @@ main img {
 
 #locations h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #407e79;
   margin-bottom: 30px;
 }
@@ -173,11 +195,12 @@ th {
 }
 
 tfoot {
-  background-color: rgba(112, 159, 165, .1);
+  background-color: #f7bfa1;
 }
 
 /* Form styles */
 form {
+  font-family: 'Saira', sans-serif;
   display: flex;
   width: 90%;
   flex-direction: column;
@@ -189,3 +212,8 @@ fieldset{
   flex-direction: column;
 }
 
+#salesTable {
+  font-family: 'Saira', sans-serif;
+  align-items: center;
+  color: #2f4f4f;
+}
